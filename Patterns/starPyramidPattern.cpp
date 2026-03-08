@@ -11,10 +11,10 @@ int main(){
         for(j=1; j<=n-i; j++){
             cout<<"  ";
         }
-        for(int k=j; k<n; k++){
+        for(int k=j; k<=n; k++){
             cout<<"* ";
         }
-        for(int l=1; l<=i; l++){
+        for(int l=1; l<i; l++){
             cout<<"* ";
         }
         cout<<endl;
