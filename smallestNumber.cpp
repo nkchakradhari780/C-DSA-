@@ -4,9 +4,7 @@ using namespace std;
 int smallestNum(int arr[], int size){       // log(n) time complexity 
     int smallest = INT_MAX;
     for(int i = 0; i < size; i++){
-        if(arr[i] < smallest){
-            smallest = arr[i];
-        }
+        smallest = min(arr[i], smallest);
     }
     return smallest;
 }
